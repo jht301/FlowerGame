@@ -15,5 +15,6 @@ public class FlowerScript : MonoBehaviour {
 	}
     void OnMouseUp() {
         Manager.me.clickedOnPlant = true;
+        Manager.me.changeText = true;
     }
 }
