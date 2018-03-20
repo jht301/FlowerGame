@@ -25,6 +25,9 @@ public class Manager : MonoBehaviour {
 
 
 	void Start() {
+		flower2.SetActive (false);
+		flower3.SetActive (false);
+		flower4.SetActive (false);
         stage = 1;
         guideText.text = "Plant a hole for the seed";
 
